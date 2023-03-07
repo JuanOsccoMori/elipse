@@ -39,16 +39,7 @@ function App() {
           </div>
         </div>
         <div className="body-content_image">
-
-        <Content/>
-          {/* 
-            <div className="position-absolute bottom-0 end-0 ">
-              <img className="img-fluid avatar" src={avatar2} alt="avatar"/>
-            </div>
-            <div className="position-absolute bottom-0 end-0 elipse">
-              <img src={ellipse1} className="img-fluid" alt="elipse"/>
-            </div>
-            */}
+          <Content/>
         </div>
       </div>
     </div>
