@@ -1,0 +1,86 @@
+.element1 {
+    width: 58rem;
+}
+
+.element2{
+    width: 55rem;
+}
+
+.element3 {
+    width: 55rem;
+}
+
+.radius{
+    width: 60px;
+    height: 60px;
+    padding: 7.5px;
+    border-radius: 50%;
+    background-color: #5555D8;
+    cursor: pointer;
+}
+
+.radius:hover{
+    width: 70px;
+    height: 70px;
+    padding: 8px;
+    transition: 500ms ease-in;
+}
+
+.content-navs-icons {
+    position: relative;
+    width: 10%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 3.7rem;
+    top: 8%;
+    left: 68%;
+}
+
+.e-2, .e-3, .e-4, .e-5, .e-6{
+    position: relative;
+}
+
+.e-2 {
+    right: 220%;
+}
+
+.e-3{
+    right: 290%;
+}
+
+.e-4 {
+    right: 330%;
+}
+
+.e-5 {
+    right: 350%;
+}
+
+.e-6 {
+    right: 360%;
+}
+
+
+
+.tooltip {
+    width: 250px;
+    height: 50px;
+    position: absolute;
+    /* visibility: hidden; */
+    opacity: 0;
+    top: 10px;
+    left: -250%;
+    color: gray;
+    transform: translateX(15%);
+    background-color: #7A7AEE;
+    color: #fff;
+    font-weight: 800;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: opacity 1050ms;
+}
+
+i:hover .tooltip{
+    opacity: 1;
+}

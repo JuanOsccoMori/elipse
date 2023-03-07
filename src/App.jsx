@@ -1,9 +1,6 @@
 import logoBregma from "./assets/logo/Logo-bregma.svg";
 import avatar from "./assets/logo/avatar.svg";
-import avatar2 from "./assets/img/Chica.svg";
-import ellipse1 from "./assets/img/Ellipse-1.svg";
-import ellipse2 from "./assets/img/Ellipse-2.svg";
-
+import Content from "./components/Content/Content";
 import "./App.css";
 
 function App() {
@@ -42,12 +39,16 @@ function App() {
           </div>
         </div>
         <div className="body-content_image">
-            <div className="position-absolute bottom-0 end-0">
+
+        <Content/>
+          {/* 
+            <div className="position-absolute bottom-0 end-0 ">
               <img className="img-fluid avatar" src={avatar2} alt="avatar"/>
             </div>
             <div className="position-absolute bottom-0 end-0 elipse">
               <img src={ellipse1} className="img-fluid" alt="elipse"/>
             </div>
+            */}
         </div>
       </div>
     </div>
